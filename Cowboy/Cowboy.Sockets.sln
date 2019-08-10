@@ -3,11 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0E04BEDA-90F9-4E44-91B9-FAE42EF01498}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D36E264D-BB94-4D14-A292-A852A3D6D5F7}"
 	ProjectSection(SolutionItems) = preProject
-		Cowboy.Sockets\Cowboy.Sockets.nuspec = Cowboy.Sockets\Cowboy.Sockets.nuspec
 		..\LICENSE = ..\LICENSE
 		..\MAKECERT.md = ..\MAKECERT.md
 		..\.nuget\NuGet.md = ..\.nuget\NuGet.md
@@ -16,43 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\TCPLIKA.md = ..\TCPLIKA.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{FBDC6AFC-D9E3-43AE-B68F-54A3586A20DD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cowboy.Sockets", "Cowboy.Sockets\Cowboy.Sockets.csproj", "{39D916FE-2C09-47AB-A5A2-1A23787F20BA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cowboy.CommandLines", "Tools\Cowboy.CommandLines\Cowboy.CommandLines.csproj", "{E7A41D23-4F6B-4BE2-A311-0D3D25BFE6E7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cowboy.TcpLika", "Tools\Cowboy.TcpLika\Cowboy.TcpLika.csproj", "{0ED6CD14-9182-486B-8AF3-1D9770449046}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cowboy.Sockets.TestAsyncTcpSocketClient", "Tests\Cowboy.Sockets.TestAsyncTcpSocketClient\Cowboy.Sockets.TestAsyncTcpSocketClient.csproj", "{80CA6A09-A08C-490B-A99F-6D972358968B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cowboy.Sockets.TestAsyncTcpSocketServer", "Tests\Cowboy.Sockets.TestAsyncTcpSocketServer\Cowboy.Sockets.TestAsyncTcpSocketServer.csproj", "{A1E6F527-386A-46C0-9A04-92CD0129662F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cowboy.Sockets.TestTcpSocketClient", "Tests\Cowboy.Sockets.TestTcpSocketClient\Cowboy.Sockets.TestTcpSocketClient.csproj", "{4A35D220-0CD3-4514-86E1-E55B8F517E24}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cowboy.Sockets.TestTcpSocketSaeaClient", "Tests\Cowboy.Sockets.TestTcpSocketSaeaClient\Cowboy.Sockets.TestTcpSocketSaeaClient.csproj", "{52607359-5DA9-4976-A91E-666939956A06}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cowboy.Sockets.TestTcpSocketSaeaServer", "Tests\Cowboy.Sockets.TestTcpSocketSaeaServer\Cowboy.Sockets.TestTcpSocketSaeaServer.csproj", "{37614B0F-9817-4952-92CA-0F5E53055792}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cowboy.Sockets.TestTcpSocketServer", "Tests\Cowboy.Sockets.TestTcpSocketServer\Cowboy.Sockets.TestTcpSocketServer.csproj", "{B07B5EB4-1892-465E-BC17-150EDC281EB5}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tcp", "Tcp", "{AE0D79BA-5B26-4179-B316-B3489183F95A}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APM", "APM", "{0D1F54DC-135A-4266-B1E2-BAD60B32B864}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EAP", "EAP", "{98FE9513-A2D1-4C4B-A0E8-E596C043413C}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TAP", "TAP", "{ABEDD03B-9587-41A2-BA14-22BD0AAC29B5}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RIO", "RIO", "{563E2008-51A7-4DF1-9F3E-3AE14BFA8605}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cowboy.Sockets.TestTcpSocketRioServer", "Tests\Cowboy.Sockets.TestTcpSocketRioServer\Cowboy.Sockets.TestTcpSocketRioServer.csproj", "{4D899C99-E59E-4BB6-B67D-D9C06528AB6B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Performance", "Performance", "{15FC914C-DCD3-4968-B1BB-8B53A4C30C2C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cowboy.Sockets.TestTcpMassiveConnection", "Tests\Cowboy.Sockets.TestTcpMassiveConnection\Cowboy.Sockets.TestTcpMassiveConnection.csproj", "{7741520B-9C12-46F9-980F-6551DC4046C9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cowboy.Sockets.Experimental", "Cowboy.Sockets.Experimental\Cowboy.Sockets.Experimental.csproj", "{0D6991EF-2781-4185-8B36-80995C9800F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cowboy.Sockets.Core", "Cowboy.Sockets.Core\Cowboy.Sockets.Core.csproj", "{E0DEA0C7-5166-43FC-8AA4-9116CFC5D0B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,75 +21,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{39D916FE-2C09-47AB-A5A2-1A23787F20BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39D916FE-2C09-47AB-A5A2-1A23787F20BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39D916FE-2C09-47AB-A5A2-1A23787F20BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39D916FE-2C09-47AB-A5A2-1A23787F20BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E7A41D23-4F6B-4BE2-A311-0D3D25BFE6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7A41D23-4F6B-4BE2-A311-0D3D25BFE6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7A41D23-4F6B-4BE2-A311-0D3D25BFE6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7A41D23-4F6B-4BE2-A311-0D3D25BFE6E7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0ED6CD14-9182-486B-8AF3-1D9770449046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0ED6CD14-9182-486B-8AF3-1D9770449046}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0ED6CD14-9182-486B-8AF3-1D9770449046}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0ED6CD14-9182-486B-8AF3-1D9770449046}.Release|Any CPU.Build.0 = Release|Any CPU
-		{80CA6A09-A08C-490B-A99F-6D972358968B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80CA6A09-A08C-490B-A99F-6D972358968B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80CA6A09-A08C-490B-A99F-6D972358968B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{80CA6A09-A08C-490B-A99F-6D972358968B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A1E6F527-386A-46C0-9A04-92CD0129662F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1E6F527-386A-46C0-9A04-92CD0129662F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1E6F527-386A-46C0-9A04-92CD0129662F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A1E6F527-386A-46C0-9A04-92CD0129662F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A35D220-0CD3-4514-86E1-E55B8F517E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A35D220-0CD3-4514-86E1-E55B8F517E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A35D220-0CD3-4514-86E1-E55B8F517E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A35D220-0CD3-4514-86E1-E55B8F517E24}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52607359-5DA9-4976-A91E-666939956A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52607359-5DA9-4976-A91E-666939956A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52607359-5DA9-4976-A91E-666939956A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52607359-5DA9-4976-A91E-666939956A06}.Release|Any CPU.Build.0 = Release|Any CPU
-		{37614B0F-9817-4952-92CA-0F5E53055792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37614B0F-9817-4952-92CA-0F5E53055792}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37614B0F-9817-4952-92CA-0F5E53055792}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37614B0F-9817-4952-92CA-0F5E53055792}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B07B5EB4-1892-465E-BC17-150EDC281EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B07B5EB4-1892-465E-BC17-150EDC281EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B07B5EB4-1892-465E-BC17-150EDC281EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B07B5EB4-1892-465E-BC17-150EDC281EB5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4D899C99-E59E-4BB6-B67D-D9C06528AB6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D899C99-E59E-4BB6-B67D-D9C06528AB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D899C99-E59E-4BB6-B67D-D9C06528AB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D899C99-E59E-4BB6-B67D-D9C06528AB6B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7741520B-9C12-46F9-980F-6551DC4046C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7741520B-9C12-46F9-980F-6551DC4046C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7741520B-9C12-46F9-980F-6551DC4046C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7741520B-9C12-46F9-980F-6551DC4046C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D6991EF-2781-4185-8B36-80995C9800F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D6991EF-2781-4185-8B36-80995C9800F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D6991EF-2781-4185-8B36-80995C9800F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D6991EF-2781-4185-8B36-80995C9800F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0DEA0C7-5166-43FC-8AA4-9116CFC5D0B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DEA0C7-5166-43FC-8AA4-9116CFC5D0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DEA0C7-5166-43FC-8AA4-9116CFC5D0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DEA0C7-5166-43FC-8AA4-9116CFC5D0B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{E7A41D23-4F6B-4BE2-A311-0D3D25BFE6E7} = {FBDC6AFC-D9E3-43AE-B68F-54A3586A20DD}
-		{0ED6CD14-9182-486B-8AF3-1D9770449046} = {FBDC6AFC-D9E3-43AE-B68F-54A3586A20DD}
-		{80CA6A09-A08C-490B-A99F-6D972358968B} = {ABEDD03B-9587-41A2-BA14-22BD0AAC29B5}
-		{A1E6F527-386A-46C0-9A04-92CD0129662F} = {ABEDD03B-9587-41A2-BA14-22BD0AAC29B5}
-		{4A35D220-0CD3-4514-86E1-E55B8F517E24} = {0D1F54DC-135A-4266-B1E2-BAD60B32B864}
-		{52607359-5DA9-4976-A91E-666939956A06} = {98FE9513-A2D1-4C4B-A0E8-E596C043413C}
-		{37614B0F-9817-4952-92CA-0F5E53055792} = {98FE9513-A2D1-4C4B-A0E8-E596C043413C}
-		{B07B5EB4-1892-465E-BC17-150EDC281EB5} = {0D1F54DC-135A-4266-B1E2-BAD60B32B864}
-		{AE0D79BA-5B26-4179-B316-B3489183F95A} = {0E04BEDA-90F9-4E44-91B9-FAE42EF01498}
-		{0D1F54DC-135A-4266-B1E2-BAD60B32B864} = {AE0D79BA-5B26-4179-B316-B3489183F95A}
-		{98FE9513-A2D1-4C4B-A0E8-E596C043413C} = {AE0D79BA-5B26-4179-B316-B3489183F95A}
-		{ABEDD03B-9587-41A2-BA14-22BD0AAC29B5} = {AE0D79BA-5B26-4179-B316-B3489183F95A}
-		{563E2008-51A7-4DF1-9F3E-3AE14BFA8605} = {AE0D79BA-5B26-4179-B316-B3489183F95A}
-		{4D899C99-E59E-4BB6-B67D-D9C06528AB6B} = {563E2008-51A7-4DF1-9F3E-3AE14BFA8605}
-		{15FC914C-DCD3-4968-B1BB-8B53A4C30C2C} = {AE0D79BA-5B26-4179-B316-B3489183F95A}
-		{7741520B-9C12-46F9-980F-6551DC4046C9} = {15FC914C-DCD3-4968-B1BB-8B53A4C30C2C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71E8A6D8-4C13-40DA-8F6C-8889263407ED}
